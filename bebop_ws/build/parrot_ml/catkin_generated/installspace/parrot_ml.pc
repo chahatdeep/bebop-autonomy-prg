@@ -1,8 +1,0 @@
-prefix=/home/dronelaptop/bebop_ws/install
-
-Name: parrot_ml
-Description: Description of parrot_ml
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/dronelaptop/bebop_ws/install/lib 
-Requires: 

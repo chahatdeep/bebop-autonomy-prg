@@ -1,4 +1,0 @@
-parrot_ml
-/home/dronelaptop/bebop_ws/devel/.private/parrot_ml/share/parrot_ml/cmake/parrot_mlConfig.cmake /home/dronelaptop/bebop_ws/devel/share/parrot_ml/cmake/parrot_mlConfig.cmake
-/home/dronelaptop/bebop_ws/devel/.private/parrot_ml/share/parrot_ml/cmake/parrot_mlConfig-version.cmake /home/dronelaptop/bebop_ws/devel/share/parrot_ml/cmake/parrot_mlConfig-version.cmake
-/home/dronelaptop/bebop_ws/devel/.private/parrot_ml/lib/pkgconfig/parrot_ml.pc /home/dronelaptop/bebop_ws/devel/lib/pkgconfig/parrot_ml.pc

@@ -1,1 +1,0 @@
-/home/dronelaptop/bebop_ws/devel/.private/vicon/share/roseus/ros/vicon/srv/SetPose.l

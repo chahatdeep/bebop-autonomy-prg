@@ -1,1 +1,0 @@
-/home/dronelaptop/bebop_ws/devel/.private/vicon/share/common-lisp/ros/vicon/srv/_package_SetPose.lisp

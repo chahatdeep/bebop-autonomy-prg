@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target vicon_driver[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/vicon_driver.dir/src/vicon_driver.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/vicon_driver.dir/src/vicon_calib.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /home/dronelaptop/bebop_ws/devel/.private/vicon_driver/lib/libvicon_driver.so[0m
-[100%] Built target vicon_driver

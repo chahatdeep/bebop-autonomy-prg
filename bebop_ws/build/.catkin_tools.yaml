@@ -1,0 +1,6 @@
+devel_space: /home/dronelaptop/bebop_ws/devel
+install: false
+install_space: /home/dronelaptop/bebop_ws/install
+profile: default
+source_space: /home/dronelaptop/bebop_ws/src
+workspace: /home/dronelaptop/bebop_ws

@@ -1,0 +1,4 @@
+Symlinking /home/dronelaptop/bebop_ws/devel/share/vicon_driver/cmake/vicon_driverConfig.cmake
+Symlinking /home/dronelaptop/bebop_ws/devel/share/vicon_driver/cmake/vicon_driverConfig-version.cmake
+Symlinking /home/dronelaptop/bebop_ws/devel/lib/libvicon_driver.so
+Symlinking /home/dronelaptop/bebop_ws/devel/lib/pkgconfig/vicon_driver.pc

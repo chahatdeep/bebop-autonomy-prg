@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dronelaptop/bebop_ws/devel/.private/parrot_ml/setup.sh

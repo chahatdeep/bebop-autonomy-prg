@@ -1,0 +1,8 @@
+prefix=/home/dronelaptop/bebop_ws/devel/.private/vicon_driver
+
+Name: vicon_driver
+Description: Description of vicon_driver
+Version: 0.0.2
+Cflags: -I/home/dronelaptop/bebop_ws/src/vicon/vicon_driver/include -I/usr/include/eigen3
+Libs: -L/home/dronelaptop/bebop_ws/devel/.private/vicon_driver/lib -lvicon_driver -lyaml-cpp
+Requires: 

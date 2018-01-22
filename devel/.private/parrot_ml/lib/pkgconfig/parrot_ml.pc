@@ -1,0 +1,8 @@
+prefix=/home/dronelaptop/bebop_ws/devel/.private/parrot_ml
+
+Name: parrot_ml
+Description: Description of parrot_ml
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/dronelaptop/bebop_ws/devel/.private/parrot_ml/lib 
+Requires: 

@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_driver
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/chahatdeep/bebop_ws/build/bebop_driver
+=======
+CMAKE_SOURCE_DIR = /home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_driver
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/dronelaptop/bebop_ws/build/bebop_driver
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 
 # Utility rule file for dynamic_reconfigure_gencfg.
 
@@ -67,6 +74,10 @@ CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
 .PHONY : CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 
 CMakeFiles/dynamic_reconfigure_gencfg.dir/depend:
+<<<<<<< HEAD
 	cd /home/chahatdeep/bebop_ws/build/bebop_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_driver /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_driver /home/chahatdeep/bebop_ws/build/bebop_driver /home/chahatdeep/bebop_ws/build/bebop_driver /home/chahatdeep/bebop_ws/build/bebop_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/dronelaptop/bebop_ws/build/bebop_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_driver /home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_driver /home/dronelaptop/bebop_ws/build/bebop_driver /home/dronelaptop/bebop_ws/build/bebop_driver /home/dronelaptop/bebop_ws/build/bebop_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 .PHONY : CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
 

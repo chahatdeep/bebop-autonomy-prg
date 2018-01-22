@@ -4,5 +4,9 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "catkin_tools_prebuild"
+<<<<<<< HEAD
 PROJECT_SPACE_DIR = "/home/chahatdeep/bebop_ws/devel/.private/catkin_tools_prebuild"
+=======
+PROJECT_SPACE_DIR = "/home/dronelaptop/bebop_ws/devel/.private/catkin_tools_prebuild"
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 PROJECT_VERSION = "0.0.0"

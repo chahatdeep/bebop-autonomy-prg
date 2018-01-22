@@ -10,7 +10,10 @@ set(bebop_tools_EXEC_DEPENDS "bebop_driver" "bebop_msgs" "joy" "joy_teleop" "ima
 set(bebop_tools_RUN_DEPENDS "bebop_driver" "bebop_msgs" "joy" "joy_teleop" "image_view")
 set(bebop_tools_TEST_DEPENDS )
 set(bebop_tools_DOC_DEPENDS )
+<<<<<<< HEAD
 set(bebop_tools_URL_WEBSITE "http://wiki.ros.org/bebop_tools")
 set(bebop_tools_URL_BUGTRACKER "")
 set(bebop_tools_URL_REPOSITORY "http://github.com/AutonomyLab/bebop_autonomy")
+=======
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 set(bebop_tools_DEPRECATED "")

@@ -67,14 +67,23 @@ set(bebop_driver_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(bebop_driver_SOURCE_PREFIX /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_driver)
   set(bebop_driver_DEVEL_PREFIX /home/chahatdeep/bebop_ws/devel/.private/bebop_driver)
+=======
+  set(bebop_driver_SOURCE_PREFIX /home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_driver)
+  set(bebop_driver_DEVEL_PREFIX /home/dronelaptop/bebop_ws/devel/.private/bebop_driver)
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
   set(bebop_driver_INSTALL_PREFIX "")
   set(bebop_driver_PREFIX ${bebop_driver_DEVEL_PREFIX})
 else()
   set(bebop_driver_SOURCE_PREFIX "")
   set(bebop_driver_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(bebop_driver_INSTALL_PREFIX /home/chahatdeep/bebop_ws/install)
+=======
+  set(bebop_driver_INSTALL_PREFIX /home/dronelaptop/bebop_ws/install)
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
   set(bebop_driver_PREFIX ${bebop_driver_INSTALL_PREFIX})
 endif()
 
@@ -94,6 +103,7 @@ set(bebop_driver_FOUND_CATKIN_PROJECT TRUE)
 if(NOT "include " STREQUAL " ")
   set(bebop_driver_INCLUDE_DIRS "")
   set(_include_dirs "include")
+<<<<<<< HEAD
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/bebop_driver " STREQUAL " ")
@@ -101,16 +111,25 @@ if(NOT "include " STREQUAL " ")
   else()
     set(_report "Report the problem to the maintainer 'Mani Monajjemi <mmonajje@sfu.ca>, Sepehr MohaimenianPour <smohaime@sfu.ca>, Thomas Bamford <thomas.bamford@mail.utoronto.ca>, Tobias Naegeli <naegelit@student.ethz.ch>' and request to fix the problem.")
   endif()
+=======
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
     elseif("${idir} " STREQUAL "include ")
       get_filename_component(include "${bebop_driver_DIR}/../../../include" ABSOLUTE)
       if(NOT IS_DIRECTORY ${include})
+<<<<<<< HEAD
         message(FATAL_ERROR "Project 'bebop_driver' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
       message(FATAL_ERROR "Project 'bebop_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/chahatdeep/bebop_ws/install/${idir}'.  ${_report}")
+=======
+        message(FATAL_ERROR "Project 'bebop_driver' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Mani Monajjemi <mmonajje@sfu.ca>, Sepehr MohaimenianPour <smohaime@sfu.ca>, Thomas Bamford <thomas.bamford@mail.utoronto.ca>, Tobias Naegeli <naegelit@student.ethz.ch>' to fix it.")
+      endif()
+    else()
+      message(FATAL_ERROR "Project 'bebop_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dronelaptop/bebop_ws/install/${idir}'.  Ask the maintainer 'Mani Monajjemi <mmonajje@sfu.ca>, Sepehr MohaimenianPour <smohaime@sfu.ca>, Thomas Bamford <thomas.bamford@mail.utoronto.ca>, Tobias Naegeli <naegelit@student.ethz.ch>' to fix it.")
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
     endif()
     _list_append_unique(bebop_driver_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +148,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/chahatdeep/bebop_ws/install/lib;/home/chahatdeep/bebop_ws/devel/lib;/opt/ros/kinetic/lib)
+=======
+    foreach(path /home/dronelaptop/bebop_ws/install/lib;/home/dronelaptop/bebop_ws/devel/lib;/opt/ros/kinetic/lib)
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

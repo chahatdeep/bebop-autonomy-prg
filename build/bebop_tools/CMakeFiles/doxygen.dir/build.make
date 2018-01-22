@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_tools
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/chahatdeep/bebop_ws/build/bebop_tools
+=======
+CMAKE_SOURCE_DIR = /home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_tools
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/dronelaptop/bebop_ws/build/bebop_tools
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 
 # Utility rule file for doxygen.
 
@@ -67,6 +74,10 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
+<<<<<<< HEAD
 	cd /home/chahatdeep/bebop_ws/build/bebop_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_tools /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_tools /home/chahatdeep/bebop_ws/build/bebop_tools /home/chahatdeep/bebop_ws/build/bebop_tools /home/chahatdeep/bebop_ws/build/bebop_tools/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/dronelaptop/bebop_ws/build/bebop_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_tools /home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_tools /home/dronelaptop/bebop_ws/build/bebop_tools /home/dronelaptop/bebop_ws/build/bebop_tools /home/dronelaptop/bebop_ws/build/bebop_tools/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 .PHONY : CMakeFiles/doxygen.dir/depend
 

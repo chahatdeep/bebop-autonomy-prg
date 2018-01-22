@@ -12,16 +12,26 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
+<<<<<<< HEAD
     for workspace in "/home/chahatdeep/bebop_ws/devel;/opt/ros/kinetic".split(';'):
+=======
+    for workspace in "/home/dronelaptop/bebop_ws/devel;/opt/ros/kinetic".split(';'):
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
         python_path = os.path.join(workspace, 'lib/python2.7/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
+<<<<<<< HEAD
 code = generate_environment_script('/home/chahatdeep/bebop_ws/devel/.private/bebop_msgs/env.sh')
 
 output_filename = '/home/chahatdeep/bebop_ws/build/bebop_msgs/catkin_generated/setup_cached.sh'
+=======
+code = generate_environment_script('/home/dronelaptop/bebop_ws/devel/.private/bebop_msgs/env.sh')
+
+output_filename = '/home/dronelaptop/bebop_ws/build/bebop_msgs/catkin_generated/setup_cached.sh'
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 with open(output_filename, 'w') as f:
     #print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

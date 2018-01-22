@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/chahatdeep/bebop_ws/build/catkin_tools_prebuild
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/chahatdeep/bebop_ws/build/catkin_tools_prebuild
+=======
+CMAKE_SOURCE_DIR = /home/dronelaptop/bebop_ws/build/catkin_tools_prebuild
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/dronelaptop/bebop_ws/build/catkin_tools_prebuild
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +142,15 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chahatdeep/bebop_ws/build/catkin_tools_prebuild/CMakeFiles /home/chahatdeep/bebop_ws/build/catkin_tools_prebuild/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chahatdeep/bebop_ws/build/catkin_tools_prebuild/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dronelaptop/bebop_ws/build/catkin_tools_prebuild/CMakeFiles /home/dronelaptop/bebop_ws/build/catkin_tools_prebuild/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dronelaptop/bebop_ws/build/catkin_tools_prebuild/CMakeFiles 0
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 .PHONY : all
 
 # The main clean target

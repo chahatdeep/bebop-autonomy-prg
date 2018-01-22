@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 prefix=/home/chahatdeep/bebop_ws/devel/.private/bebop_tools
+=======
+prefix=/home/dronelaptop/bebop_ws/devel/.private/bebop_tools
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 
 Name: bebop_tools
 Description: Description of bebop_tools
 Version: 0.7.0
 Cflags: 
+<<<<<<< HEAD
 Libs: -L/home/chahatdeep/bebop_ws/devel/.private/bebop_tools/lib 
+=======
+Libs: -L/home/dronelaptop/bebop_ws/devel/.private/bebop_tools/lib 
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 Requires: bebop_msgs

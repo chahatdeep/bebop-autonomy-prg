@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver_node.cpp
+=======
+/home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver_node.cpp
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 string
 -
 vector
@@ -277,8 +281,11 @@ ros/rate.h
 /opt/ros/kinetic/include/ros/ros/rate.h
 ros/wall_timer.h
 /opt/ros/kinetic/include/ros/ros/wall_timer.h
+<<<<<<< HEAD
 ros/steady_timer.h
 /opt/ros/kinetic/include/ros/ros/steady_timer.h
+=======
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 ros/advertise_options.h
 /opt/ros/kinetic/include/ros/ros/advertise_options.h
 ros/advertise_service_options.h
@@ -532,6 +539,7 @@ boost/shared_ptr.hpp
 boost/static_assert.hpp
 -
 
+<<<<<<< HEAD
 /opt/ros/kinetic/include/ros/steady_timer.h
 common.h
 /opt/ros/kinetic/include/ros/common.h
@@ -546,6 +554,8 @@ common.h
 ros/forwards.h
 /opt/ros/kinetic/include/ros/ros/forwards.h
 
+=======
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 /opt/ros/kinetic/include/ros/subscribe_options.h
 ros/forwards.h
 /opt/ros/kinetic/include/ros/ros/forwards.h

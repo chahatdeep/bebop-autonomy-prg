@@ -3,7 +3,11 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gtest")
+<<<<<<< HEAD
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/chahatdeep/bebop_ws/build/bebop_msgs")
+=======
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/dronelaptop/bebop_ws/build/bebop_msgs")
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

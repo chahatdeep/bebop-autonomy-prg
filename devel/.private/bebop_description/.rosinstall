@@ -1,2 +1,6 @@
 - setup-file:
+<<<<<<< HEAD
     local-name: /home/chahatdeep/bebop_ws/devel/.private/bebop_description/setup.sh
+=======
+    local-name: /home/dronelaptop/bebop_ws/devel/.private/bebop_description/setup.sh
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c

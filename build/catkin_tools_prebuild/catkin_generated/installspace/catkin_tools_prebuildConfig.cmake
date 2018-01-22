@@ -67,14 +67,23 @@ set(catkin_tools_prebuild_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(catkin_tools_prebuild_SOURCE_PREFIX /home/chahatdeep/bebop_ws/build/catkin_tools_prebuild)
   set(catkin_tools_prebuild_DEVEL_PREFIX /home/chahatdeep/bebop_ws/devel/.private/catkin_tools_prebuild)
+=======
+  set(catkin_tools_prebuild_SOURCE_PREFIX /home/dronelaptop/bebop_ws/build/catkin_tools_prebuild)
+  set(catkin_tools_prebuild_DEVEL_PREFIX /home/dronelaptop/bebop_ws/devel/.private/catkin_tools_prebuild)
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
   set(catkin_tools_prebuild_INSTALL_PREFIX "")
   set(catkin_tools_prebuild_PREFIX ${catkin_tools_prebuild_DEVEL_PREFIX})
 else()
   set(catkin_tools_prebuild_SOURCE_PREFIX "")
   set(catkin_tools_prebuild_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(catkin_tools_prebuild_INSTALL_PREFIX /home/chahatdeep/bebop_ws/install)
+=======
+  set(catkin_tools_prebuild_INSTALL_PREFIX /home/dronelaptop/bebop_ws/install)
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
   set(catkin_tools_prebuild_PREFIX ${catkin_tools_prebuild_INSTALL_PREFIX})
 endif()
 
@@ -94,6 +103,7 @@ set(catkin_tools_prebuild_FOUND_CATKIN_PROJECT TRUE)
 if(NOT " " STREQUAL " ")
   set(catkin_tools_prebuild_INCLUDE_DIRS "")
   set(_include_dirs "")
+<<<<<<< HEAD
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -101,16 +111,25 @@ if(NOT " " STREQUAL " ")
   else()
     set(_report "Report the problem to the maintainer 'jbohren <jbo@jhu.edu>' and request to fix the problem.")
   endif()
+=======
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
     elseif("${idir} " STREQUAL "include ")
       get_filename_component(include "${catkin_tools_prebuild_DIR}/../../../include" ABSOLUTE)
       if(NOT IS_DIRECTORY ${include})
+<<<<<<< HEAD
         message(FATAL_ERROR "Project 'catkin_tools_prebuild' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
       message(FATAL_ERROR "Project 'catkin_tools_prebuild' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/chahatdeep/bebop_ws/install/${idir}'.  ${_report}")
+=======
+        message(FATAL_ERROR "Project 'catkin_tools_prebuild' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'jbohren <jbo@jhu.edu>' to fix it.")
+      endif()
+    else()
+      message(FATAL_ERROR "Project 'catkin_tools_prebuild' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dronelaptop/bebop_ws/install/${idir}'.  Ask the maintainer 'jbohren <jbo@jhu.edu>' to fix it.")
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
     endif()
     _list_append_unique(catkin_tools_prebuild_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +148,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/chahatdeep/bebop_ws/install/lib;/home/chahatdeep/bebop_ws/devel/lib;/opt/ros/kinetic/lib)
+=======
+    foreach(path /home/dronelaptop/bebop_ws/install/lib;/opt/ros/kinetic/lib)
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

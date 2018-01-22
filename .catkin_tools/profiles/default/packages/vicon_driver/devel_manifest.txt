@@ -1,5 +1,12 @@
 vicon/vicon_driver
+<<<<<<< HEAD
 /home/chahatdeep/bebop_ws/devel/.private/vicon_driver/share/vicon_driver/cmake/vicon_driverConfig-version.cmake /home/chahatdeep/bebop_ws/devel/share/vicon_driver/cmake/vicon_driverConfig-version.cmake
 /home/chahatdeep/bebop_ws/devel/.private/vicon_driver/share/vicon_driver/cmake/vicon_driverConfig.cmake /home/chahatdeep/bebop_ws/devel/share/vicon_driver/cmake/vicon_driverConfig.cmake
 /home/chahatdeep/bebop_ws/devel/.private/vicon_driver/lib/libvicon_driver.so /home/chahatdeep/bebop_ws/devel/lib/libvicon_driver.so
 /home/chahatdeep/bebop_ws/devel/.private/vicon_driver/lib/pkgconfig/vicon_driver.pc /home/chahatdeep/bebop_ws/devel/lib/pkgconfig/vicon_driver.pc
+=======
+/home/dronelaptop/bebop_ws/devel/.private/vicon_driver/share/vicon_driver/cmake/vicon_driverConfig.cmake /home/dronelaptop/bebop_ws/devel/share/vicon_driver/cmake/vicon_driverConfig.cmake
+/home/dronelaptop/bebop_ws/devel/.private/vicon_driver/share/vicon_driver/cmake/vicon_driverConfig-version.cmake /home/dronelaptop/bebop_ws/devel/share/vicon_driver/cmake/vicon_driverConfig-version.cmake
+/home/dronelaptop/bebop_ws/devel/.private/vicon_driver/lib/libvicon_driver.so /home/dronelaptop/bebop_ws/devel/lib/libvicon_driver.so
+/home/dronelaptop/bebop_ws/devel/.private/vicon_driver/lib/pkgconfig/vicon_driver.pc /home/dronelaptop/bebop_ws/devel/lib/pkgconfig/vicon_driver.pc
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c

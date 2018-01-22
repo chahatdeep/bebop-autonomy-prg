@@ -5,12 +5,19 @@
 # It tries it's best to undo changes from a previously sourced setup file before.
 # Supported command line options:
 # --extend: skips the undoing of changes from a previously sourced setup file
+<<<<<<< HEAD
 #   (in plain sh shell which does't support arguments for sourced scripts you
 #   can set the environment variable `CATKIN_SETUP_UTIL_ARGS=--extend` instead)
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
 : ${_CATKIN_SETUP_DIR:=/home/chahatdeep/bebop_ws/devel/.private/bebop_tools}
+=======
+
+# since this file is sourced either use the provided _CATKIN_SETUP_DIR
+# or fall back to the destination set at configure time
+: ${_CATKIN_SETUP_DIR:=/home/dronelaptop/bebop_ws/devel/.private/bebop_tools}
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 
@@ -57,7 +64,11 @@ if [ $? -ne 0 -o ! -f "$_SETUP_TMP" ]; then
   echo "Could not create temporary file: $_SETUP_TMP"
   return 1
 fi
+<<<<<<< HEAD
 CATKIN_SHELL=$CATKIN_SHELL "$_SETUP_UTIL" $@ $CATKIN_SETUP_UTIL_ARGS >> "$_SETUP_TMP"
+=======
+CATKIN_SHELL=$CATKIN_SHELL "$_SETUP_UTIL" $@ >> "$_SETUP_TMP"
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 _RC=$?
 if [ $_RC -ne 0 ]; then
   if [ $_RC -eq 2 ]; then

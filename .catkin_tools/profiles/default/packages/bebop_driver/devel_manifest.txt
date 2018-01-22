@@ -1,4 +1,5 @@
 bebop_autonomy/bebop_driver
+<<<<<<< HEAD
 /home/chahatdeep/bebop_ws/devel/.private/bebop_driver/share/bebop_driver/docs/BebopArdrone3Config.wikidoc /home/chahatdeep/bebop_ws/devel/share/bebop_driver/docs/BebopArdrone3Config.wikidoc
 /home/chahatdeep/bebop_ws/devel/.private/bebop_driver/share/bebop_driver/docs/BebopArdrone3Config.dox /home/chahatdeep/bebop_ws/devel/share/bebop_driver/docs/BebopArdrone3Config.dox
 /home/chahatdeep/bebop_ws/devel/.private/bebop_driver/share/bebop_driver/docs/BebopArdrone3Config-usage.dox /home/chahatdeep/bebop_ws/devel/share/bebop_driver/docs/BebopArdrone3Config-usage.dox
@@ -12,3 +13,18 @@ bebop_autonomy/bebop_driver
 /home/chahatdeep/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/__init__.py /home/chahatdeep/bebop_ws/devel/lib/python2.7/dist-packages/bebop_driver/__init__.py
 /home/chahatdeep/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/cfg/__init__.py /home/chahatdeep/bebop_ws/devel/lib/python2.7/dist-packages/bebop_driver/cfg/__init__.py
 /home/chahatdeep/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/cfg/BebopArdrone3Config.py /home/chahatdeep/bebop_ws/devel/lib/python2.7/dist-packages/bebop_driver/cfg/BebopArdrone3Config.py
+=======
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/share/bebop_driver/docs/BebopArdrone3Config.wikidoc /home/dronelaptop/bebop_ws/devel/share/bebop_driver/docs/BebopArdrone3Config.wikidoc
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/share/bebop_driver/docs/BebopArdrone3Config-usage.dox /home/dronelaptop/bebop_ws/devel/share/bebop_driver/docs/BebopArdrone3Config-usage.dox
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/share/bebop_driver/docs/BebopArdrone3Config.dox /home/dronelaptop/bebop_ws/devel/share/bebop_driver/docs/BebopArdrone3Config.dox
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/share/bebop_driver/cmake/bebop_driverConfig-version.cmake /home/dronelaptop/bebop_ws/devel/share/bebop_driver/cmake/bebop_driverConfig-version.cmake
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/share/bebop_driver/cmake/bebop_driverConfig.cmake /home/dronelaptop/bebop_ws/devel/share/bebop_driver/cmake/bebop_driverConfig.cmake
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/lib/libbebop_driver_nodelet.so /home/dronelaptop/bebop_ws/devel/lib/libbebop_driver_nodelet.so
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/lib/libbebop.so /home/dronelaptop/bebop_ws/devel/lib/libbebop.so
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/lib/pkgconfig/bebop_driver.pc /home/dronelaptop/bebop_ws/devel/lib/pkgconfig/bebop_driver.pc
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/lib/bebop_driver/bebop_driver_node /home/dronelaptop/bebop_ws/devel/lib/bebop_driver/bebop_driver_node
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/__init__.py /home/dronelaptop/bebop_ws/devel/lib/python2.7/dist-packages/bebop_driver/__init__.py
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/cfg/BebopArdrone3Config.py /home/dronelaptop/bebop_ws/devel/lib/python2.7/dist-packages/bebop_driver/cfg/BebopArdrone3Config.py
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/cfg/__init__.py /home/dronelaptop/bebop_ws/devel/lib/python2.7/dist-packages/bebop_driver/cfg/__init__.py
+/home/dronelaptop/bebop_ws/devel/.private/bebop_driver/include/bebop_driver/BebopArdrone3Config.h /home/dronelaptop/bebop_ws/devel/include/bebop_driver/BebopArdrone3Config.h
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c

@@ -2,7 +2,11 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+<<<<<<< HEAD
   set(CMAKE_INSTALL_PREFIX "/home/chahatdeep/bebop_ws/install")
+=======
+  set(CMAKE_INSTALL_PREFIX "/home/dronelaptop/bebop_ws/install")
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

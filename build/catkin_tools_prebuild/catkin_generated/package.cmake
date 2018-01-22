@@ -10,7 +10,10 @@ set(catkin_tools_prebuild_EXEC_DEPENDS )
 set(catkin_tools_prebuild_RUN_DEPENDS )
 set(catkin_tools_prebuild_TEST_DEPENDS )
 set(catkin_tools_prebuild_DOC_DEPENDS )
+<<<<<<< HEAD
 set(catkin_tools_prebuild_URL_WEBSITE "")
 set(catkin_tools_prebuild_URL_BUGTRACKER "")
 set(catkin_tools_prebuild_URL_REPOSITORY "")
+=======
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 set(catkin_tools_prebuild_DEPRECATED "")

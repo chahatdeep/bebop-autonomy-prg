@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_driver
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/chahatdeep/bebop_ws/build/bebop_driver
+=======
+CMAKE_SOURCE_DIR = /home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_driver
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/dronelaptop/bebop_ws/build/bebop_driver
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +61,11 @@ CMAKE_BINARY_DIR = /home/chahatdeep/bebop_ws/build/bebop_driver
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
+<<<<<<< HEAD
 	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/chahatdeep/bebop_ws/build/bebop_driver/test_results
+=======
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/dronelaptop/bebop_ws/build/bebop_driver/test_results
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +82,10 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
+<<<<<<< HEAD
 	cd /home/chahatdeep/bebop_ws/build/bebop_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_driver /home/chahatdeep/bebop_ws/src/bebop_autonomy/bebop_driver /home/chahatdeep/bebop_ws/build/bebop_driver /home/chahatdeep/bebop_ws/build/bebop_driver /home/chahatdeep/bebop_ws/build/bebop_driver/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/dronelaptop/bebop_ws/build/bebop_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_driver /home/dronelaptop/bebop_ws/src/bebop_autonomy/bebop_driver /home/dronelaptop/bebop_ws/build/bebop_driver /home/dronelaptop/bebop_ws/build/bebop_driver /home/dronelaptop/bebop_ws/build/bebop_driver/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

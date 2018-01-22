@@ -25,7 +25,11 @@ MovementCmd(MovementPub, [0,0.1,0.3,0,0,0]');
 pause(0.2);
 end
 
+<<<<<<< HEAD
 pause(2);
+=======
+pause(0.5);
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 ImgMsg = receive(ImageSub, 10);
 ImgData{3} = readImage(ImgMsg);
 
@@ -35,7 +39,11 @@ MovementCmd(MovementPub, [0,0.1,-0.3,0,0,0]');
 pause(0.2);
 end
 
+<<<<<<< HEAD
 pause(2);
+=======
+pause(0.5);
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 ImgMsg = receive(ImageSub, 10);
 ImgData{4} = readImage(ImgMsg);
 

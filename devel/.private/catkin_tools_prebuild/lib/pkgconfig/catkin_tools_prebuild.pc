@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 prefix=/home/chahatdeep/bebop_ws/devel/.private/catkin_tools_prebuild
+=======
+prefix=/home/dronelaptop/bebop_ws/devel/.private/catkin_tools_prebuild
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild
 Version: 0.0.0
 Cflags: 
+<<<<<<< HEAD
 Libs: -L/home/chahatdeep/bebop_ws/devel/.private/catkin_tools_prebuild/lib 
+=======
+Libs: -L/home/dronelaptop/bebop_ws/devel/.private/catkin_tools_prebuild/lib 
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c
 Requires: 

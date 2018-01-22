@@ -1,5 +1,12 @@
 vicon/vicon_odom
+<<<<<<< HEAD
 /home/chahatdeep/bebop_ws/devel/.private/vicon_odom/share/vicon_odom/cmake/vicon_odomConfig-version.cmake /home/chahatdeep/bebop_ws/devel/share/vicon_odom/cmake/vicon_odomConfig-version.cmake
 /home/chahatdeep/bebop_ws/devel/.private/vicon_odom/share/vicon_odom/cmake/vicon_odomConfig.cmake /home/chahatdeep/bebop_ws/devel/share/vicon_odom/cmake/vicon_odomConfig.cmake
 /home/chahatdeep/bebop_ws/devel/.private/vicon_odom/lib/vicon_odom/vicon_odom /home/chahatdeep/bebop_ws/devel/lib/vicon_odom/vicon_odom
 /home/chahatdeep/bebop_ws/devel/.private/vicon_odom/lib/pkgconfig/vicon_odom.pc /home/chahatdeep/bebop_ws/devel/lib/pkgconfig/vicon_odom.pc
+=======
+/home/dronelaptop/bebop_ws/devel/.private/vicon_odom/share/vicon_odom/cmake/vicon_odomConfig.cmake /home/dronelaptop/bebop_ws/devel/share/vicon_odom/cmake/vicon_odomConfig.cmake
+/home/dronelaptop/bebop_ws/devel/.private/vicon_odom/share/vicon_odom/cmake/vicon_odomConfig-version.cmake /home/dronelaptop/bebop_ws/devel/share/vicon_odom/cmake/vicon_odomConfig-version.cmake
+/home/dronelaptop/bebop_ws/devel/.private/vicon_odom/lib/pkgconfig/vicon_odom.pc /home/dronelaptop/bebop_ws/devel/lib/pkgconfig/vicon_odom.pc
+/home/dronelaptop/bebop_ws/devel/.private/vicon_odom/lib/vicon_odom/vicon_odom /home/dronelaptop/bebop_ws/devel/lib/vicon_odom/vicon_odom
+>>>>>>> f834c4515e8cc313d37640e4cacaaf3de5c3f16c

@@ -5,7 +5,13 @@
 %% Initialize
 % Kill all old ros
 % rosshutdown
+try
 rosinit
+catch
+    rosshutdown
+    pause(2);
+    rosinit
+end
 
 %% Image Subscriber
 ImageSub = rossubscriber('/bebop/image_raw');
@@ -24,14 +30,25 @@ MovementPub = rospublisher('/bebop/cmd_vel', 'geometry_msgs/Twist');
 % TakeOff --> Move in X,Y,Z by +1 unit --> Land
 TakeoffCmd(TakeOffPub);
 pause(5);
-% PlusCmd(MovementPub);
+PlusCmd(MovementPub);
+pause(2);
+for count = 1:20
+centerBest = ReadAndDisplayImg(ImageSub, MovementPub);
+% pause(2);
+end
+pause(2);
 % CircleCmd(MovementPub);
 % DiamondCmd(MovementPub);
-ImgData = DiamondCmdWithImg(MovementPub, ImageSub);
+% ImgData = DiamondCmdWithImg(MovementPub, ImageSub);
 % OctagonCmd(MovementPub);
-pause(2);
+% pause(2);
 % MovementCmd(MovementPub, [0,0.5,0,0,0,0]');
 % pause(5);
 % MovementCmd(MovementPub, [-0.2,0.2,0.2,0,0,0]');
 % pause(5)
 LandCmd(LandPub);
+ 
+%% Display Images as a Montage
+ImgMontage = cat(4, ImgData{:});
+figure,
+montage(ImgMontage);

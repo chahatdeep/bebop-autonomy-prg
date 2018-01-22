@@ -25,7 +25,7 @@ MovementCmd(MovementPub, [0,0.1,0.3,0,0,0]');
 pause(0.2);
 end
 
-pause(0.5);
+pause(2);
 ImgMsg = receive(ImageSub, 10);
 ImgData{3} = readImage(ImgMsg);
 
@@ -35,7 +35,7 @@ MovementCmd(MovementPub, [0,0.1,-0.3,0,0,0]');
 pause(0.2);
 end
 
-pause(0.5);
+pause(2);
 ImgMsg = receive(ImageSub, 10);
 ImgData{4} = readImage(ImgMsg);
 

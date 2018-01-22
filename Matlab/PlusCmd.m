@@ -1,13 +1,13 @@
 function PlusCmd(MovementPub)
-for count = 1:10
+for count = 1:20
 MovementCmd(MovementPub, [0,0,0.1,0,0,0]');
 pause(0.2);
 end
 
-for count = 1:40
-MovementCmd(MovementPub, [0,0,-0.1,0,0,0]');
-pause(0.2);
-end
+% for count = 1:40
+% MovementCmd(MovementPub, [0,0,-0.1,0,0,0]');
+% pause(0.2);
+% end
 
 % MovementCmd(MovementPub, [0,0,-1,0,0,0]');
 % pause(2);

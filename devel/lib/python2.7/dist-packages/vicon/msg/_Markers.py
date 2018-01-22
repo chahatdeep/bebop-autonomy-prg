@@ -1,1 +1,0 @@
-/home/dronelaptop/bebop_ws/devel/.private/vicon/lib/python2.7/dist-packages/vicon/msg/_Markers.py

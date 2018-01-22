@@ -1,8 +1,0 @@
-prefix=/home/dronelaptop/bebop_ws/devel/.private/vicon_odom
-
-Name: vicon_odom
-Description: Description of vicon_odom
-Version: 0.0.2
-Cflags: -I/usr/include/eigen3
-Libs: -L/home/dronelaptop/bebop_ws/devel/.private/vicon_odom/lib 
-Requires: vicon tf2_ros
